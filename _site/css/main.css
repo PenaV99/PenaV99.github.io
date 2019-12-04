@@ -168,8 +168,15 @@ div.bio-box { border: 1px solid #008000;}
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
+  background-size: cover;
+  box-sizing: border-box;
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
-  height: 50vh;
+  height: 100vh;
+  padding-top: 10vh;
+}
+.hero-home {
+  background-image: url(/images/shark.jpg);
+  background-position: center top;
 }
 .full-hero:hover,
 .full-hero:active{
