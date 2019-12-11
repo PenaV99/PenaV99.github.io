@@ -53,7 +53,16 @@ html {
   padding: 0px 20px;
 }
 body {
-  font-family: helvetica,arial,sans;
+  display: flex;
+  flex-direction: column;
+  font-family: helvetica,arial,sans-serif;
+  min-height: 100vh;
+}
+.content-container {
+  flex-grow: 1;
+  background-color: blue;
+  padding-top: 10vh;
+  
 }
 
 h1 {
